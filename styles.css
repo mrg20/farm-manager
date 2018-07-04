@@ -3,6 +3,7 @@ body{
     background-color: rgb(236, 236, 236);
 }
 
+/*Identifiers*/
 #container{
     text-align: center;
     height: 100vh;
@@ -25,9 +26,11 @@ body{
     display: inline-block;
 }
 
-.general-div{
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
-    border-bottom: 0px;
+#select-view-option{
+    list-style-type: none;
+    padding-left: 5%;
+}
+
+.view-option{
+    padding-top:10px;
 }
