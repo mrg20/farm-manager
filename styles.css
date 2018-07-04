@@ -1,28 +1,33 @@
 body{
-    background-color: whitesmoke;
-    
+    overflow: hidden;
+    background-color: rgb(236, 236, 236);
 }
 
 #container{
-    height: 100%;
-    width: 100%;
+    text-align: center;
+    height: 100vh;
 }
 
 #left-lateral{
-    margin-right: 80%;
-    background-color: rgb(206, 206, 206);
-    height: 100vh;
+    background-color: whitesmoke;
+    height: 100%;
     width: 20%;
     overflow-y: scroll;
-    float: left;
+    display: inline-block;
+    
 }
 
 #right-lateral{
-    margin-left: 20%;
-    margin-right: 0px;
-    height: 100vh;
-    width: 80%;
-    background-color: rgb(190, 190, 190);
-    float:left;
+    height: 100%;
+    width: 79%;
+    background-color: whitesmoke;
     overflow-y: scroll;
+    display: inline-block;
+}
+
+.general-div{
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
 }
