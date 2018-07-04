@@ -1,0 +1,28 @@
+body{
+    background-color: whitesmoke;
+    
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+}
+
+#left-lateral{
+    margin-right: 80%;
+    background-color: rgb(206, 206, 206);
+    height: 100vh;
+    width: 20%;
+    overflow-y: scroll;
+    float: left;
+}
+
+#right-lateral{
+    margin-left: 20%;
+    margin-right: 0px;
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(190, 190, 190);
+    float:left;
+    overflow-y: scroll;
+}
