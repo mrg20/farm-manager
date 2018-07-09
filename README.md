@@ -1,2 +1,3 @@
-# farm-manager
-Simple electron application to manage farms. A bit of practice on front-end.
+# Summer coding
+
+*Ignore this repo*. This is some coding activities done in summer, just to learn things.
