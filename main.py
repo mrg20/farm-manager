@@ -14,9 +14,11 @@ def simple_series():
 def dataframe():
     gold_offers = pd.DataFrame(julio_completo)
     print(gold_offers)
+    gold_offers.to_csv('mcdo_offers.csv')
 
 def csv_treat():
-    pass
+    gold_offers_csv = pd.read_csv('mcdo_offers.csv')
+    print(gold_offers_csv)
 
 def excel_treat():
     data = pd.read_excel('climates.xlsx', sheet_name='Sea Level Stations', nrows=10)
