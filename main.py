@@ -15,6 +15,16 @@ def dataframe():
     gold_offers = pd.DataFrame(julio_completo)
     print(gold_offers)
 
+def csv_treat():
+    pass
+
+def excel_treat():
+    data = pd.read_excel('climates.xlsx', sheet_name='Sea Level Stations', nrows=10)
+    print(data)
+
+
 if __name__ == "__main__":
     simple_series()
     dataframe()
+    csv_treat()
+    excel_treat()
