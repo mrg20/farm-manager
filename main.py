@@ -24,9 +24,14 @@ def excel_treat():
     data = pd.read_excel('climates.xlsx', sheet_name='Sea Level Stations', nrows=10)
     print(data)
 
+def url():
+    data = pd.read_table('https://github.com/cs109/2014_data/blob/master/countries.csv')
+    print("URL")
+    print(data.head(5))
 
 if __name__ == "__main__":
     simple_series()
     dataframe()
     csv_treat()
     excel_treat()
+    url()
