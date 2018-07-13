@@ -29,3 +29,10 @@ class FirstPart:
         data = pd.read_table('https://github.com/cs109/2014_data/blob/master/countries.csv')
         print("URL")
         print(data.head(5))
+
+    def execute(self):
+        self.simple_series()
+        self.dataframe()
+        self.csv_treat()
+        self.excel_treat()
+        self.url()
