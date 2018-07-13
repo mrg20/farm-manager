@@ -31,6 +31,7 @@ class FirstPart:
         print(data.head(5))
 
     def execute(self):
+        print("------------------FIRST PART----------------------")
         self.simple_series()
         self.dataframe()
         self.csv_treat()
